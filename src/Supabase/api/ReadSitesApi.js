@@ -6,7 +6,7 @@ export async function fetchSiteMasterData() {
   .select('*')
 
   if (error) {
-    console.error('Error fetching site_master data:', error)
+    console.error('Err fetching site_master data:', error)
     return []
   }
   return data
