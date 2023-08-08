@@ -1,0 +1,56 @@
+.content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+  }
+  .sidebar {
+    background-color: #ffffff;
+    min-height: 100vh;
+    width: 14rem;
+  }
+  
+.sidebar-link {
+    display: flex;
+    align-items: center;
+    padding: 1rem 1.5rem;
+    text-decoration: none;
+    font-weight: 500;
+    color: rgba(9, 9, 9, 9);
+    transition: background-color 0.2s ease-in-out;
+}
+
+.sidebar-link:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.sidebar-link .icon {
+    margin-right: 0.5rem;
+}
+
+.shadow-bottom {
+    box-shadow: 0 4px 6px 10px rgba(0, 0, 0, 0.1), 0 2px 4px 10px rgba(0, 0, 0, 0.06);
+  }
+
+.large-placeholder::placeholder {
+  font-size: 1.125rem;
+}
+
+.custom-search-button:hover {
+  background-color: rgba(79, 70, 229);
+  padding: 36px 36px; /* Increase padding to increase size */
+  height: 56px;
+  font-size: 28px; /* Increase font size to increase text size */
+}
+
+.custom-search-button {
+  padding: 36px 36px; /* Increase padding to increase size */
+  height: 56px;
+  font-size: 28px; /* Increase font size to increase text size */
+}
+
+.search-input::placeholder {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+  
